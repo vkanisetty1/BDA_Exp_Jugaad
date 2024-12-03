@@ -1,4 +1,5 @@
 import streamlit as st
+import config
 from query_handler import handle_query
 
 def main():
@@ -8,7 +9,7 @@ def main():
     st.title("JugaadDoc - Medical Chatbot")
     query = st.text_input("Enter your health-related question:")
     if query:
-        store_path = "path/to/faiss_index"
+        store_path = config.FAISS_INDEX_PATH
         result = handle_query(query, store_path)
         st.write("Response:")
         st.write(result)

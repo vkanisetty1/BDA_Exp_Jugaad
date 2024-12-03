@@ -9,14 +9,18 @@ def main():
     Main function to preprocess data, generate embeddings, and save to FAISS index.
     """
     # Load and preprocess data
+    print("--Reading text Data--")
     raw_text = load_data(config.PDF_FILE_PATH)
+    print("--Text Data read--")
     text_chunks = preprocess_text(raw_text)
+    print("--Text Chunks--")
 
     # Generate embeddings
     embeddings = create_embeddings(text_chunks)
-
+    print("creating vector dtore")
     # Save embeddings to FAISS vector store
     save_to_vector_store(embeddings, text_chunks, config.FAISS_INDEX_PATH)
+    print("created vector store")
 
     # Instructions to launch the Streamlit frontend
     print("To run the Streamlit frontend, use the following command:")
