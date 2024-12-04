@@ -2,12 +2,28 @@ import os
 from data_loader import load_data, preprocess_text
 from embedding_generator import create_embeddings
 from vector_store import save_to_vector_store
+from sentence_transformers import SentenceTransformer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import config
 
+def cache_models():
+    """
+    Download and cache required models locally.
+    """
+    print("Caching SentenceTransformer model...")
+    sentence_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+    print("SentenceTransformer model cached successfully.")
+
+    print("Caching Llama-2 model...")
+    tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-2-7b-chat-hf')
+    model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-2-7b-chat-hf')
+    print("Llama-2 model cached successfully.")
 def main():
     """
     Main function to preprocess data, generate embeddings, and save to FAISS index.
     """
+    # Cache models
+    cache_models()
     # Load and preprocess data
     print("--Reading text Data--")
     raw_text = load_data(config.PDF_FILE_PATH)

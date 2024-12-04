@@ -1,0 +1,203 @@
+2024-12-04 13:50:02,267 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-04 13:50:02,627 - DEBUG - Creating converter from 7 to 5
+2024-12-04 13:50:02,627 - DEBUG - Creating converter from 5 to 7
+2024-12-04 13:50:02,628 - DEBUG - Creating converter from 7 to 5
+2024-12-04 13:50:02,628 - DEBUG - Creating converter from 5 to 7
+2024-12-04 13:50:05,676 - INFO - Use pytorch device_name: cpu
+2024-12-04 13:50:05,676 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 13:50:05,680 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-12-04 13:50:05,789 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 13:50:05,878 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 13:50:05,934 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 13:50:05,989 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 13:50:06,041 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 13:50:06,116 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 13:50:06,553 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 13:50:06,668 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 13:50:06,728 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 13:51:39,713 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2024-12-04 13:51:39,713 - INFO - Loading faiss with AVX2 support.
+2024-12-04 13:51:39,775 - INFO - Successfully loaded faiss with AVX2 support.
+2024-12-04 13:51:39,783 - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2024-12-04 13:53:00,164 - DEBUG - Processing query: i have a headache
+2024-12-04 13:53:05,968 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-04 13:53:06,152 - DEBUG - Creating converter from 7 to 5
+2024-12-04 13:53:06,153 - DEBUG - Creating converter from 5 to 7
+2024-12-04 13:53:06,153 - DEBUG - Creating converter from 7 to 5
+2024-12-04 13:53:06,153 - DEBUG - Creating converter from 5 to 7
+2024-12-04 13:53:08,116 - INFO - Use pytorch device_name: cpu
+2024-12-04 13:53:08,116 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 13:53:08,119 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-12-04 13:53:08,222 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 13:53:08,274 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 13:53:08,321 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 13:53:08,372 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 13:53:08,420 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 13:53:08,467 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 13:53:08,761 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 13:53:08,845 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 13:53:08,902 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 13:53:08,936 - DEBUG - Query embedding generated successfully.
+2024-12-04 13:53:08,938 - INFO - Use pytorch device_name: cpu
+2024-12-04 13:53:08,938 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 13:53:08,986 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 13:53:09,044 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 13:53:09,126 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 13:53:09,187 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 13:53:09,239 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 13:53:09,282 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 13:53:09,353 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 13:53:09,442 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 13:53:09,500 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 13:53:09,505 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2024-12-04 13:53:09,505 - INFO - Loading faiss with AVX2 support.
+2024-12-04 13:53:09,525 - INFO - Successfully loaded faiss with AVX2 support.
+2024-12-04 13:53:09,578 - DEBUG - Relevant texts retrieved: 5 items.
+2024-12-04 13:53:09,665 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 13:53:09,836 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 13:55:54,320 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-12-04 14:15:10,203 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-04 14:15:10,753 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:15:10,753 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:15:10,754 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:15:10,754 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:15:15,821 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:15:15,822 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:15:15,828 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-12-04 14:15:16,593 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:15:16,706 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:15:16,810 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:15:16,910 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:15:17,217 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:15:17,319 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:15:18,058 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:15:18,196 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:15:18,263 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:15:18,323 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:15:18,548 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:18:37,427 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-12-04 14:19:06,368 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:19:06,368 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:19:06,496 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:19:06,599 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:19:06,701 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:19:06,804 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:19:06,906 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:19:07,109 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:19:11,126 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:19:11,410 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:19:11,785 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:20:42,259 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2024-12-04 14:20:42,259 - INFO - Loading faiss with AVX2 support.
+2024-12-04 14:20:42,345 - INFO - Successfully loaded faiss with AVX2 support.
+2024-12-04 14:20:42,353 - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2024-12-04 14:21:19,976 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-04 14:21:20,529 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:21:20,529 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:21:20,530 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:21:20,530 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:21:39,118 - DEBUG - Processing query: i have a headache
+2024-12-04 14:21:39,446 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:21:39,447 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:21:39,453 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-12-04 14:21:39,691 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:21:39,792 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:21:39,896 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:21:39,997 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:21:40,100 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:21:40,203 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:21:41,020 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:21:41,226 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:21:41,329 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:21:41,378 - DEBUG - Query embedding generated successfully.
+2024-12-04 14:21:41,380 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:21:41,381 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:21:41,532 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:21:41,635 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:21:41,738 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:21:41,840 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:21:41,943 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:21:42,046 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:21:42,248 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:21:42,456 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:21:42,557 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:21:42,564 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2024-12-04 14:21:42,565 - INFO - Loading faiss with AVX2 support.
+2024-12-04 14:21:42,593 - INFO - Successfully loaded faiss with AVX2 support.
+2024-12-04 14:21:42,691 - DEBUG - Relevant texts retrieved: 5 items.
+2024-12-04 14:21:42,692 - INFO - Loading cached Llama-2 model...
+2024-12-04 14:21:42,761 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:21:43,068 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:24:52,248 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-12-04 14:32:14,136 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:32:14,137 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:32:14,137 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:32:14,138 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:32:18,954 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:32:18,954 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:32:18,959 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-12-04 14:32:19,130 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:32:19,293 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:32:19,395 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:32:19,499 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:32:19,601 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:32:19,705 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:32:20,420 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:32:20,626 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:32:20,729 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:32:20,830 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:32:21,137 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:36:44,967 - DEBUG - Resetting dropped connection: huggingface.co
+2024-12-04 14:36:47,365 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-12-04 14:37:18,610 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:37:18,611 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:37:21,277 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:37:21,484 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:37:21,585 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:37:21,689 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:37:21,791 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:37:21,894 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:37:26,194 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:37:26,609 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:37:27,116 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:38:59,170 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2024-12-04 14:38:59,171 - INFO - Loading faiss with AVX2 support.
+2024-12-04 14:38:59,262 - INFO - Successfully loaded faiss with AVX2 support.
+2024-12-04 14:38:59,273 - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2024-12-04 14:39:48,906 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:39:48,907 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:39:48,907 - DEBUG - Creating converter from 7 to 5
+2024-12-04 14:39:48,908 - DEBUG - Creating converter from 5 to 7
+2024-12-04 14:40:52,167 - DEBUG - Processing query: i have a headache
+2024-12-04 14:40:52,513 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:40:52,513 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:40:52,521 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-12-04 14:40:52,801 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:40:52,943 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:40:53,046 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:40:53,149 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:40:53,251 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:40:53,353 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:40:54,266 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:40:54,457 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:40:54,584 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:40:54,643 - DEBUG - Query embedding generated successfully.
+2024-12-04 14:40:54,646 - INFO - Use pytorch device_name: cpu
+2024-12-04 14:40:54,647 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-04 14:40:54,788 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:40:54,853 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-12-04 14:40:54,904 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-12-04 14:40:54,993 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-12-04 14:40:55,094 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-12-04 14:40:57,414 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:40:57,653 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:40:57,860 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6690
+2024-12-04 14:40:57,961 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6690
+2024-12-04 14:40:57,970 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2024-12-04 14:40:57,970 - INFO - Loading faiss with AVX2 support.
+2024-12-04 14:40:58,011 - INFO - Successfully loaded faiss with AVX2 support.
+2024-12-04 14:40:58,138 - DEBUG - Relevant texts retrieved: 5 items.
+2024-12-04 14:40:58,139 - INFO - Loading cached Llama-2 model...
+2024-12-04 14:40:58,268 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-12-04 14:40:58,575 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/config.json HTTP/1.1" 200 0
+2024-12-04 14:44:50,748 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-chat-hf/resolve/main/generation_config.json HTTP/1.1" 200 0
